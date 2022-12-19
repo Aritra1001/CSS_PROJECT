@@ -59,19 +59,45 @@ a{
     color:#C2C2C2;
     text-decoration:line-through;
 }
+.align{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.wid{
+    width:142px;
+}
 /* .checkarr{
     width:100px;
     display:flex;
     align-items:center;
     flex-wrap:wrap; */
 
-input[type="checkbox"]{
-    /* appearance:none; */
-    background-color: #C2C2C2;
-    height:20px;
-    width:20px;
-  
-}
+    input[type="checkbox"]:checked{
+        appearance: none;
+        background-color: #C2C2C2;
+        height: 20px;
+        width: 20px;
+        margin: 0px 10px;
+        border-radius:3px;
+        /* padding: 5px; */
+    }
+    input[type=checkbox]:after{
+        font-family:"Font Awesome 5 Free";
+        content:"\f00c";
+        font-weight:900;
+        color:white;
+        font-size:20px;
+    }
+    input[type="checkbox"]{
+        background-color:#F7F7F7;
+        height:20px;
+        width:20px;
+        margin:0px 10px;
+        border-radius:3px;
+        border-color:#EDEDED;
+    }
 #bg{
     filter:blur(5px);
 }   
