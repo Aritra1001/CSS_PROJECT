@@ -147,9 +147,11 @@ a{
 .fa-circle-arrow-left{
     margin-right:7px;
     font-size:30px;
+    color:black;
 }
 .back{
     font-size:20px;
+    color:black;
 }
 .add_icon3{
     width:max-content;
@@ -214,4 +216,10 @@ input[type="text"] {
 }
 hr{
     color:#EDEDED;
+}
+.cross4{
+    color:black;
+    position:absolute;
+    top:15px;
+    right:10px;
 }
